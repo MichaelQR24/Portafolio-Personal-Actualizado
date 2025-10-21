@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | Portafolio Michael QR</title>
+    <meta name="description" content="Página principal del portafolio de Michael Matías Querevalú Ramos, desarrollador full-stack y analista de datos.">
+    <link rel="canonical" href="https://mi-dominio.com/">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Inicio | Portafolio Michael QR">
+    <meta property="og:description" content="Página principal del portafolio de Michael Matías Querevalú Ramos, desarrollador full-stack y analista de datos.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mi-dominio.com/">
+    <meta property="og:image" content="https://mi-dominio.com/assets/img/og-image.jpg">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Inicio | Portafolio Michael QR">
+    <meta name="twitter:description" content="Página principal del portafolio de Michael Matías Querevalú Ramos, desarrollador full-stack y analista de datos.">
+    <meta name="twitter:image" content="https://mi-dominio.com/assets/img/og-image.jpg">
+    <!-- JSON-LD: WebSite + BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Portafolio Michael QR",
+        "url": "https://mi-dominio.com/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://mi-dominio.com/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://mi-dominio.com/" }
+        ]
+    }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header class="site-header header-v2">
+  <div class="container header-row">
+    <a href="#inicio" class="logo-pill">MQ</a>
+
+    <nav class="main-nav nav-center">
+      <ul class="nav-links">
+        <li><a href="#inicio" class="active">Inicio</a></li>
+        <li><a href="#sobre">Sobre mí</a></li>
+        <li><a href="#stack">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#certificaciones">Certificaciones</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <a href="./assets/docs/CV-MichaelQuerevalu.pdf_2025_10_2.pdf" download class="btn-cv pill-gradient">
+      <i class="fas fa-download" aria-hidden="true"></i>
+      <span>Descargar CV</span>
+    </a>
+
+    <!-- botón móvil (opcional si ya lo usas) -->
+    <button class="hamburger" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-left">
+                    <span class="badge">Disponible para oportunidades laborales</span>
+                    <h1 class="hero-title">Hola, soy <span class="name-gradient">Michael Matías Querevalú Ramos</span></h1>
+                    <p class="hero-sub">Estudiante de Ingeniería de Sistemas Computacionales (9no ciclo) con experiencia en aplicaciones web y gestión de bases de datos</p>
+                    <ul class="highlights">
+                        <li>Especializadome en desarrollo web con HTML, CSS,JavaScript y React</li>
+                        <li>Experiencia en gestión de bases de datos con MySQL y PostgreSQL</li>
+                        <li>Interés en UX/UI con Figma y analítica de datos con Power BI</li>
+                    </ul>
+                    <div class="hero-actions">
+                        <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+                        <a class="btn btn-outline" href="#contacto">Contactar</a>
+                        <a class="btn btn-download" href="./assets/docs/CV-MichaelQuerevalu.pdf_2025_10_2.pdf" download>Descargar CV</a>
+                    </div>
+                    <!-- Iconos sociales debajo de las acciones -->
+                    <div class="social-icons">
+                        <a class="icon-btn" href="https://github.com/MichaelQR24" aria-label="GitHub" target="_blank" rel="noopener">
+                            <svg class="icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                                <title>GitHub</title>
+                                <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.28.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                            </svg>
+                        </a>
+                        <a class="icon-btn" href="https://www.linkedin.com/in/michael-matias-querevalu-ramos-138b08285/" aria-label="LinkedIn" target="_blank" rel="noopener">
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                                <title>LinkedIn</title>
+                                <path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.7-1.3 2.4-2.7 4.9-2.7 5.2 0 6.2 3.4 6.2 7.8V24h-5V15.4c0-2.1 0-4.8-3-4.8-3 0-3.5 2.4-3.5 4.6V24h-5V8z"/>
+                            </svg>
+                        </a>
+                        <a class="icon-btn" href="mailto:michaelq280@gmail.com" aria-label="Email">
+                            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+                                <title>Email</title>
+                                <path fill="currentColor" d="M0 4v16h24V4H0zm12 9L2 6h20l-10 7z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <aside class="hero-right">
+                    <div class="card contact-card">
+                        <div class="card-body">
+                            <div class="avatar">MQ</div>
+                            <div class="contact">
+                                <h4>Contacto</h4>
+                                <p class="phone">923 674 519</p>
+                                <p class="email">michaelq280@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="card-footer stats">
+                            <div class="stat stat-purple">
+                                <div class="stat-number">9no</div>
+                                <div class="stat-label">Ciclo</div>
+                            </div>
+                            <a class="stat stat-green stat-link js-scroll" href="#certificaciones">
+                                <div class="stat-number">+4</div>
+                                <div class="stat-label">Certificados</div>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <section id="sobre" class="sobre-mi-section">
+          <div class="container">
+            <span class="badge">Sobre mí</span>
+            <h2 class="hero-title">Desarrollador Junior Full-Stack & Analista de Datos</h2>
+            <p class="hero-sub">Soy estudiante de Ingeniería de Sistemas Computacionales en la Universidad Privada del Norte (9no ciclo), apasionado por crear soluciones tecnológicas que resuelvan problemas reales. Mi experiencia combina desarrollo web, gestión de bases de datos y analítica de datos.</p>
+            <h3>¿Por qué contratarme?</h3>
+            <ul>
+              <li>
+                <span class="check-icon">✔</span> <span class="check-text">Sólida formación académica en Ingeniería de Sistemas (9no ciclo) con enfoque práctico en proyectos reales</span>
+              </li>
+              <li>
+                <span class="check-icon">✔</span> <span class="check-text">Capacidad para traducir requisitos de negocio en soluciones técnicas escalables y mantenibles</span>
+              </li>
+              <li>
+                <span class="check-icon">✔</span> <span class="check-text">Aprendizaje continuo certificado en Big Data, Excel avanzado y desarrollo web moderno</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="fortalezas" class="skills-section">
+          <div class="container">
+            <h2>Fortalezas clave</h2>
+            <div class="skills-grid">
+              <article class="skill-card">
+                <div class="skill-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <h3>Desarrollo Junior Full-Stack</h3>
+                <p>Experiencia en construcción de aplicaciones web completas con Java, HTML, CSS, JavaScript y frameworks modernos</p>
+              </article>
+              <article class="skill-card">
+                <div class="skill-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                </div>
+                <h3>Gestión de Bases de Datos</h3>
+                <p>Diseño, implementación y optimización de bases de datos relacionales con MySQL y PostgreSQL</p>
+              </article>
+              <article class="skill-card">
+                <div class="skill-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20V10M18 20V4M6 20V16"></path></svg>
+                </div>
+                <h3>Analítica y Business Intelligence</h3>
+                <p>Visualización y análisis de datos con Power BI y Excel avanzado para toma de decisiones</p>
+              </article>
+              <article class="skill-card">
+                <div class="skill-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M12 14.26A5.002 5.002 0 0 1 12 4a5 5 0 0 1 5 5c0 1.66-1.34 3-3 3h-4a3 3 0 0 0-3 3c0 1.66 1.34 3 3 3Z"></path></svg>
+                </div>
+                <h3>Diseño UX/UI</h3>
+                <p>Creación de interfaces intuitivas y atractivas con Figma, centradas en la experiencia del usuario</p>
+              </article>
+              <article class="skill-card">
+                <div class="skill-icon" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                </div>
+                <h3>Trabajo en Equipo</h3>
+                <p>Colaboración efectiva en proyectos multidisciplinarios con metodologías ágiles</p>
+              </article>
+            </div>
+            
+          </div>
+        </section>
+        <section id="proceso" class="process-section">
+          <div class="container">
+            <h2>Cómo trabajo</h2>
+            <div class="process-grid">
+              <article class="process-card">
+                <div class="step-badge" aria-hidden="true">1</div>
+                <h3>1. Brief</h3>
+                <p>Comprensión profunda de requisitos, objetivos y restricciones del proyecto.</p>
+              </article>
+              <article class="process-card">
+                <div class="step-badge" aria-hidden="true">2</div>
+                <h3>2. Diseño</h3>
+                <p>Planificación de arquitectura, base de datos y diseño de interfaces en Figma.</p>
+              </article>
+              <article class="process-card">
+                <div class="step-badge" aria-hidden="true">3</div>
+                <h3>3. Desarrollo y Entrega</h3>
+                <p>Implementación iterativa con pruebas continuas y documentación completa.</p>
+              </article>
+            </div>
+          </div>
+          <section id="stack" class="stack-section">
+  <div class="container">
+    <span class="badge">Habilidades</span>
+    <h2 class="stack-title">Stack tecnológico</h2>
+    <p class="stack-sub">
+      Tecnologías y herramientas que domino para construir soluciones completas
+    </p>
+
+    <div class="stack-grid">
+      <!-- Desarrollo Web -->
+      <article class="stack-card dev">
+        <div class="stack-header">
+          <div class="stack-icon"><i class="fas fa-code"></i></div>
+          <h3>Desarrollo Web</h3>
+        </div>
+        <ul class="stack-list">
+          <li><span>Java</span> <span class="dots">••••</span> <span class="level level-adv">Avanzado</span></li>
+          <li><span>JavaScript</span> <span class="dots">••••</span> <span class="level level-adv">Avanzado</span></li>
+          <li><span>HTML</span> <span class="dots">••••</span> <span class="level level-adv">Avanzado</span></li>
+          <li><span>CSS</span> <span class="dots">••••</span> <span class="level level-adv">Avanzado</span></li>
+          <li><span>Git</span> <span class="dots">•••</span> <span class="level level-int">Intermedio</span></li>
+        </ul>
+      </article>
+
+      <!-- Bases de Datos -->
+      <article class="stack-card db">
+        <div class="stack-header">
+          <div class="stack-icon"><i class="fas fa-database"></i></div>
+          <h3>Bases de Datos</h3>
+        </div>
+        <ul class="stack-list">
+          <li><span>MySQL</span> <span class="dots">•••</span> <span class="level level-adv">Avanzado</span></li>
+          <li><span>PostgreSQL</span> <span class="dots">•••</span> <span class="level level-adv">Avanzado</span></li>
+        </ul>
+      </article>
+
+      <!-- Analítica y BI -->
+      <article class="stack-card bi">
+        <div class="stack-header">
+          <div class="stack-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Analítica y BI</h3>
+        </div>
+        <ul class="stack-list">
+          <li><span>Power BI</span> <span class="dots">••</span> <span class="level level-int">Intermedio</span></li>
+          <li><span>Excel</span> <span class="dots">••••</span> <span class="level level-adv">Avanzado</span></li>
+        </ul>
+      </article>
+
+      <!-- Diseño UX/UI -->
+      <article class="stack-card ux">
+        <div class="stack-header">
+          <div class="stack-icon"><i class="fas fa-pen-nib"></i></div>
+          <h3>Diseño UX/UI</h3>
+        </div>
+        <ul class="stack-list">
+          <li><span>Figma</span> <span class="dots">•••</span> <span class="level level-adv">Avanzado</span></li>
+        </ul>
+      </article>
+    </div>
+
+    <div class="tech-tags">
+      <h4>Todas las tecnologías</h4>
+      <div class="tag-grid">
+        <span class="tag">Java</span>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">PostgreSQL</span>
+        <span class="tag">Power BI</span>
+        <span class="tag">Excel</span>
+        <span class="tag">Figma</span>
+        <span class="tag">Git</span>
+        <span class="tag">UX/UI</span>
+        <span class="tag">Big Data</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+        </section>
+        <section id="proyectos" class="projects-section">
+            <div class="container">
+                <span class="badge">Proyectos</span>
+                <h2 class="projects-title">Proyectos destacados</h2>
+                <p class="projects-sub">Soluciones tecnológicas que he desarrollado para resolver problemas reales</p>
+
+                <article class="project-card">
+                  <div class="project-media">
+                    <div class="media-icon" aria-hidden="true">
+                      <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    <h3 class="media-title">Sistema Barbería</h3>
+                    <p class="media-sub">Gestión de citas &amp; clientes</p>
+                  </div>
+
+                  <div class="project-content">
+                    <header class="project-head">
+                      <h3 class="project-name">Sistema de Gestión para Barbería</h3>
+                      <span class="project-year">2024</span>
+                    </header>
+
+                    <p class="project-desc">Aplicación web completa para gestión de citas, clientes y servicios en barberías</p>
+
+                    <ul class="project-points">
+                      <li>
+                        <span class="dot dot-red" aria-hidden="true"></span>
+                        <div>
+                          <strong>Problema</strong>
+                          <p>Las barberías tradicionales gestionaban citas manualmente con agendas físicas, causando conflictos de horarios, pérdida de información y dificultad para analizar el rendimiento del negocio.</p>
+                        </div>
+                      </li>
+                      <li>
+                        <span class="dot dot-green" aria-hidden="true"></span>
+                        <div>
+                          <strong>Solución</strong>
+                          <p>Desarrollé un sistema web integral con Java y MySQL que permite reservar citas online, gestionar clientes, servicios y generar reportes automáticos. Interfaz intuitiva para barberos y clientes.</p>
+                        </div>
+                      </li>
+                    </ul>
+
+                    <div class="project-meta">
+                      <span class="meta-label">Stack técnico</span>
+                      <div class="project-stack">
+                        <span class="tag">Java</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                      </div>
+                    </div>
+
+                    <div class="project-actions">
+                      <a class="btn btn-primary" href="#" target="_blank" rel="noopener">Ver detalles</a>
+                      <a class="btn btn-download" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+                    </div>
+                  </div>
+                </article>
+
+                <div class="projects-more" role="note" aria-label="Más proyectos en desarrollo">
+                  <h4>Más proyectos en desarrollo...</h4>
+                  <p>Actualmente trabajando en nuevas soluciones con tecnologías modernas</p>
+                </div>
+            </div>
+        </section>
+        <section id="certificaciones" class="cert-section">
+            <div class="container">
+                <span class="badge">Certificaciones</span>
+                <h2 class="cert-title">Educación continua</h2>
+                <p class="cert-sub">Certificaciones que validan mi compromiso con el aprendizaje y desarrollo profesional</p>
+
+                <div class="cert-grid">
+                  <article class="cert-card">
+                    <div class="cert-icon" aria-hidden="true"><i class="fa-solid fa-award"></i></div>
+                    <span class="cert-year">2023</span>
+                    <h3 class="cert-name">Big Data Analyst</h3>
+                    <p class="cert-issuer">Certificación profesional</p>
+                    <div class="cert-tags">
+                      <span class="cert-chip">Analítica de Datos</span>
+                    </div>
+                  </article>
+
+                  <article class="cert-card">
+                    <div class="cert-icon" aria-hidden="true"><i class="fa-solid fa-award"></i></div>
+                    <span class="cert-year">2023</span>
+                    <h3 class="cert-name">Excel – De Cero a Experto</h3>
+                    <p class="cert-issuer">Udemy • Plataforma: Udemy</p>
+                    <div class="cert-tags">
+                      <span class="cert-chip chip-green">Business Intelligence</span>
+                    </div>
+                  </article>
+
+                  <article class="cert-card">
+                    <div class="cert-icon" aria-hidden="true"><i class="fa-solid fa-award"></i></div>
+                    <span class="cert-year">2024</span>
+                    <h3 class="cert-name">Desarrollo Web</h3>
+                    <p class="cert-issuer">Coderhouse • Plataforma: Coderhouse</p>
+                    <div class="cert-tags">
+                      <span class="cert-chip chip-blue">Desarrollo Web</span>
+                    </div>
+                  </article>
+
+                  <article class="cert-card">
+                    <div class="cert-icon" aria-hidden="true"><i class="fa-solid fa-award"></i></div>
+                    <span class="cert-year">2025</span>
+                    <h3 class="cert-name">Curso de iniciación al desarrollo con IA</h3>
+                    <p class="cert-issuer">BIG school</p>
+                    <div class="cert-tags">
+                      <span class="cert-chip">Desarrollo con IA</span>
+                    </div>
+                  </article>
+                </div>
+
+                <div class="cert-note">
+                  <div class="note-icon" aria-hidden="true"><i class="fa-solid fa-seedling"></i></div>
+                  <div>
+                    <h4>Aprendizaje continuo</h4>
+                    <p>Me mantengo actualizado con las últimas tendencias y tecnologías del sector. Actualmente estoy inscrito en certificaciones en la UNI, enfocadas en profundizar mis conocimientos en arquitecturas cloud, contenedores y metodologías ágiles para proyectos de mayor escala.</p>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <section id="educacion" class="edu-section">
+            <div class="container">
+                <span class="badge">Educación</span>
+                <h2 class="edu-title">Formación académica</h2>
+                <p class="edu-sub">Sólida base teórica complementada con experiencia práctica en proyectos reales</p>
+
+                <article class="edu-card">
+                  <div class="edu-left">
+                    <div class="edu-icon" aria-hidden="true"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="status-pill"><span class="dot dot-green" aria-hidden="true"></span>Actualmente cursando</div>
+                  </div>
+                  <div class="edu-right">
+                    <h3 class="program">Ingeniería de Sistemas Computacionales</h3>
+                    <p class="institution">Universidad Privada del Norte (UPN)</p>
+
+                    <div class="edu-meta">
+                      <div class="meta-item">
+                        <div class="meta-icon"><i class="fa-solid fa-calendar-days"></i></div>
+                        <div class="meta-text">
+                          <span class="meta-label">Período</span>
+                          <span class="meta-value">2019 – Presente</span>
+                        </div>
+                      </div>
+                      <div class="meta-item">
+                        <div class="meta-icon"><i class="fa-solid fa-book-open"></i></div>
+                        <div class="meta-text">
+                          <span class="meta-label">Ciclo actual</span>
+                          <span class="meta-value">9no ciclo</span>
+                        </div>
+                      </div>
+                      <div class="meta-item">
+                        <div class="meta-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="meta-text">
+                          <span class="meta-label">Ubicación</span>
+                          <span class="meta-value">Lima, Perú</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <hr class="edu-divider"/>
+                    <p class="edu-desc">En mi formación académica he desarrollado una sólida comprensión de los fundamentos de la informática,
+                    complementada con proyectos prácticos que me han permitido aplicar conocimientos en entornos reales. Mi enfoque
+                    está en la integración de desarrollo de software, gestión de datos y análisis para crear soluciones tecnológicas
+                    completas.</p>
+                  </div>
+                </article>
+
+                <h3 class="courses-title">Cursos relevantes</h3>
+                <div class="courses-grid">
+                  <span class="course-pill">Desarrollo de Aplicaciones Web</span>
+                  <span class="course-pill">Gestión y Administración de Bases de Datos</span>
+                  <span class="course-pill">Programación Orientada a Objetos</span>
+                  <span class="course-pill">Estructuras de Datos y Algoritmos</span>
+                  <span class="course-pill">Ingeniería de Software</span>
+                  <span class="course-pill">Sistemas de Información Gerencial</span>
+                  <span class="course-pill">Análisis y Diseño de Sistemas</span>
+                  <span class="course-pill">Redes y Comunicaciones</span>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="contact-section">
+            <div class="container">
+                <span class="badge">Contacto</span>
+                <h2 class="contact-title">Hablemos de tu proyecto</h2>
+                <p class="contact-sub">¿Tienes una idea o proyecto en mente? Me encantaría escuchar sobre ella y explorar cómo puedo ayudarte</p>
+
+                <div class="contact-grid">
+                  <!-- Formulario -->
+                  <article class="contact-card">
+                    <form id="contact-form" class="contact-form" novalidate>
+                      <div class="form-group">
+                        <label for="name">Nombre completo</label>
+                        <input id="name" name="name" type="text" placeholder="Tu nombre" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="tu@email.com" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Mensaje</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Cuéntame sobre tu proyecto o consulta..."></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+                        <span>Enviar mensaje</span>
+                      </button>
+                      <p class="form-note">Respondo mensajes en un plazo de 24–48 horas</p>
+                    </form>
+                  </article>
+
+                  <!-- Panel lateral -->
+                  <div class="contact-side">
+                    <article class="info-card">
+                      <h3>Información de contacto</h3>
+                      <ul class="info-list">
+                        <li class="info-item">
+                          <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                          <div>
+                            <span class="info-label">Teléfono</span>
+                            <a href="tel:923674519" class="info-value">923 674 519</a>
+                          </div>
+                        </li>
+                        <li class="info-item">
+                          <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                          <div>
+                            <span class="info-label">Email</span>
+                            <a href="mailto:michaelq280@gmail.com" class="info-value">michaelq280@gmail.com</a>
+                          </div>
+                        </li>
+                        <li class="info-item">
+                          <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                          <div>
+                            <span class="info-label">Ubicación</span>
+                            <span class="info-value">Lima, Perú</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </article>
+
+                    <article class="social-card">
+                      <h3>Redes profesionales</h3>
+                      <a class="social-item" href="https://github.com/MichaelQR24" target="_blank" rel="noopener">
+                        <div class="info-icon"><i class="fa-brands fa-github"></i></div>
+                        <div>
+                          <span class="info-label">GitHub</span>
+                          <span class="info-value">@MichaelQR24</span>
+                        </div>
+                      </a>
+                      <a class="social-item" href="#" target="_blank" rel="noopener">
+                        <div class="info-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                        <div>
+                          <span class="info-label">LinkedIn</span>
+                          <span class="info-value">Michael Matías Querevalú</span>
+                        </div>
+                      </a>
+                    </article>
+
+                    <article class="availability-card">
+                      <div class="avail-dot" aria-hidden="true"></div>
+                      <div>
+                        <strong>Disponible para proyectos</strong>
+                        <p>Actualmente abierto a oportunidades freelance y tiempo completo</p>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+
+                <!-- CTA inferior -->
+                <article class="cta-card">
+                  <h3>¿Listo para empezar?</h3>
+                  <p>Ya sea que necesites un sistema web, gestión de bases de datos, o análisis de datos, estoy aquí para ayudarte a convertir tu visión en realidad.</p>
+                  <div class="cta-actions">
+                    <a class="btn btn-primary" href="mailto:michaelq280@gmail.com?subject=Consulta%20desde%20el%20portafolio">
+                      <i class="fa-solid fa-envelope-open-text"></i>
+                      <span>Enviar email directo</span>
+                    </a>
+                    <a class="btn btn-download" href="tel:923674519">
+                      <i class="fa-solid fa-phone"></i>
+                      <span>Llamar ahora</span>
+                    </a>
+                  </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <span class="logo-pill">MQ</span>
+            <div class="footer-nombre">Michael Q. Ramos</div>
+            <p class="footer-desc">Desarrollador Junior Full-Stack especializado en aplicaciones web y gestión de bases de datos.</p>
+            <div class="footer-status"><span class="footer-dot"></span> Disponible para proyectos</div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Navegación</h4>
+            <ul>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#sobre">Sobre mí</a></li>
+              <li><a href="#stack">Habilidades</a></li>
+              <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Más</h4>
+            <ul>
+              <li><a href="#certificaciones">Certificaciones</a></li>
+              <li><a href="#educacion">Educación</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contacto</h4>
+            <div class="footer-contact-row">
+              <i class="footer-icon fa-solid fa-phone" aria-hidden="true"></i>
+              <a href="tel:923674519">923 674 519</a>
+            </div>
+            <div class="footer-contact-row">
+              <i class="footer-icon fa-solid fa-envelope" aria-hidden="true"></i>
+              <a href="mailto:michaelq280@gmail.com">michaelq280@gmail.com</a>
+            </div>
+            <div class="footer-social">
+              <a class="icon-btn" href="https://github.com/MichaelQR24" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a class="icon-btn" href="#" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a class="icon-btn" href="mailto:michaelq280@gmail.com" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="footer-divider"/>
+        <div class="footer-copy">
+          <span>© 2025 Michael Matías Querevalú Ramos. Todos los derechos reservados.</span>
+        </div>
+      </div>
+    </footer>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/nav.js"></script>
+  </body>
+</html>
