@@ -309,6 +309,9 @@ body {
   .avatar { width: 120px; height: 120px; font-size: 34px; }
   .contact-card { min-height: auto; padding: 28px; }
   .stat .stat-number { font-size: 1.4rem; }
+  /* Orden deseado en <=768px: primero texto (hero-left), luego tarjeta (hero-right) */
+  .hero-left { order: 1; }
+  .hero-right { order: 2; }
 
   .projects-title, .cert-title, .edu-title, .contact-title { font-size: 2rem; }
   .projects-sub, .cert-sub, .edu-sub, .contact-sub { font-size: 1rem; }
@@ -330,6 +333,9 @@ body {
   .avatar { width: 96px; height: 96px; font-size: 28px; }
   .stat .stat-number { font-size: 1.2rem; }
   .stat .stat-label { font-size: 0.9rem; }
+  /* Orden deseado en 320px: primero texto (hero-left), luego tarjeta (hero-right) */
+  .hero-left { order: 1; }
+  .hero-right { order: 2; }
   .project-media { min-height: 180px; }
   .media-icon { width: 52px; height: 52px; }
   .project-content { padding: 14px; }
